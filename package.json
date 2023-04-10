@@ -1,0 +1,23 @@
+{
+  "name": "eslint-tutorial",
+  "version": "1.0.0",
+  "description": "this is for eslint tutorial",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js --ignore-path .gitignore .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samuel-Ayalew/ESLint_Tutorial.git"
+  },
+  "author": "Samuel Ayalew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samuel-Ayalew/ESLint_Tutorial/issues"
+  },
+  "homepage": "https://github.com/Samuel-Ayalew/ESLint_Tutorial#readme",
+  "devDependencies": {
+    "eslint": "^8.38.0"
+  }
+}
