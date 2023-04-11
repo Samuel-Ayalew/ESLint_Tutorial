@@ -1,9 +1,12 @@
-function positiveNumberChecker(number){
 
+
+function positiveNumberChecker(number){
+   
     if (number>0){
        
         return true;
     }
+    return false;
 
 }
-console.log(positiveNumberChecker(10));
+positiveNumberChecker(10);

@@ -1,0 +1,4 @@
+.log
+node_modules/
+.eslinttr.json
+package.json

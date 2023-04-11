@@ -7,9 +7,16 @@
     "overrides": [
     ],
     "parserOptions": {
-        "ecmaVersion": "latest"
+        "ecmaVersion": "latest",
+        "sourceType": "module"
     },
     "rules": {
+        "no-restricted-imports": [
+            "error", "_"
+        ],
+        "consistent-return" : "error",
+        "eqeqeq" : "error",
+        "no-console": "error",
         "indent": [
             "error",
             4
